@@ -1,0 +1,57 @@
+.row1{
+                
+                width: 700px;
+                clear: both;
+                padding-bottom: 30px;
+                
+                
+                
+            }
+            .image-left
+            {
+                width: 50%;
+                float: left;
+            }
+            .image-right{
+               width: 50%;
+               float: left;
+            }
+            .row2
+            {
+             
+                width: 700px;
+                clear: both;
+                   
+            }
+            .imagel1{
+                 width: 50%;
+                float: left;
+            }
+            .imager1
+            {
+                width: 50%;
+                float: left;
+            }
+            .row3{
+                
+                width: 700px;
+                clear: both;
+                
+                
+            }
+            .imagel2{
+              width: 50%;
+                padding-left: 175px;
+            }
+            .body{
+              text-align: center;
+                display: inline-block;
+          alignment-adjust: central;
+            
+                margin: 20% auto;
+                margin-left: 30%;
+                 border: 3px solid whitesmoke;
+                                background-color: gray;
+                                
+                 box-shadow: 0 2px 4px aliceblue;   
+            }

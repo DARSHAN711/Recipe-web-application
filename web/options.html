@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>body{
+            background-image:   url(food.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+}
+            .body{
+                text-align: center;
+                display: inline-block;
+          alignment-adjust: central;
+            position: relative;
+                margin: 13% auto;
+                margin-left: 33%;
+                 border: 3px solid whitesmoke;
+                 width: 650px;
+                 height: 350px;
+                 background-color: #ffffff;
+                 opacity: 0.6;
+  filter: alpha(opacity=60);
+                 box-shadow: 0 2px 4px aliceblue;
+}
+select{
+    width: 300px;
+    height: 30px;
+}
+input[type="submit"] {
+  
+  width: 150px;
+  height: 40px;
+  background: orange;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+            </style>
+    </head>
+    <body>
+        
+        <div class="body">
+            <font size="5"><h3><u>SELECT YOUR OPTION:</u></h3><br>
+            
+        <form method="post" action="/project/logic" style="text-align: center">
+            <b>CATEGORY: </b>&emsp;<select name="t1"><option>choose</option> <option>veg</option><option>nonveg</option></select><br><br><br>
+            <b>COURSE:</b>&emsp;&emsp;<select name="t2"><option>starter</option><option>maincourse</option><option>desert</option></select><br><br><br> 
+           <input type="submit" value="enter">
+        </form>
+           </div>
+    </body>
+</html>
